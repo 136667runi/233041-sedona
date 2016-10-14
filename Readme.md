@@ -1,7 +1,11 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Татьяна Першина](https://up.htmlacademy.ru/adaptive/8/user/233041).
+<<<<<<< HEAD
 * Наставник: [Мария Белогубова](https://htmlacademy.ru/profile/id87018).
+=======
+* Наставник: `Мария Белогубова`(https://up.htmlacademy.ru/adaptive/8/user/233041).
+>>>>>>> 7182d6979e42000b9bb1052b285fa41653f71271
 
 ---
 
