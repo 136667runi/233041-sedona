@@ -20,7 +20,7 @@
     </div>
   </nav>
   <div class="page-header__logo">
-    <a href="index.html" class="page-header__logo">
+    <a href="index.html">
       <img src="img/logo.svg" width="24px" height="24px" alt="Sedona" class="page-header__logo_img">
     </a>
   </div>
@@ -30,14 +30,12 @@
 </header>
 <main>
   <div class="page-content">
-    <div class="intro">
-      <h2 class="intro__title  intro__title--photo">
-        Оставьте свой отзыв
-      </h2>
-      <p class="intro__text">
-        Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных Вами достопримечательностях
-      </p>
-    </div>
+    <header class="intro  intro--index">
+      <h1 class="intro__title">
+      Оставьте свой отзыв
+      </h1>
+      <p class="intro__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных Вами достопримечательностях</p>
+    </header>
     <form action="feedback-form feedback-form__item--person">
       <fieldset class="feedback-form__item">
         <legend class="feedback-form__title">Представьтесь, пожалуйста:</legend>
@@ -78,39 +76,37 @@
       <fieldset class="feedback-form__item  feedback-form__item--textarea">
         <div class="feedback-form__title  feedback-form__title--textarea">Опишите свои эмоции:</div>
         <textarea class="feedback-form__input  feedback-form__input--textarea" placeholder="Опишите подробно все свои восторги" rows="5" name="comment"></textarea>
-        <div class="form-popup  form-popup--failure">
+        <div class="form-popup form-popup--failure">
           <h2 class="form-popup__title">Что-то пошло не так!</h2>
           <p class="form-popup__text">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить</p>
-          <button class="form-popup__btn--failure  btn">Ок</button>
+          <button class="btn--success btn">Ок</button>
         </div>
-
         <div class="form-popup  form-popup--success">
           <h2 class="form-popup__title">Ваш отзыв отправлен!</h2>
           <p class="form-popup__text  form-popup__text--success">Спасибо за Ваше участие, Ваш отзыв уже поступил к нам. <br>В ближайшее время мы опубликуем его на сайте.</p>
           <div class="form-popup__footer">
-            <button class="form-popup__btn--success  btn">Закрыть окно</button>
+            <button class="btn--success btn">Закрыть окно</button>
           </div>
         </div>
       </fieldset>
       <div class="feedback-form__submit">
-        <button class="feedback-form__submit-btn  btn" type="submit">Отправить отзыв</button>
+        <button class="btn--form btn" type="submit">Отправить отзыв</button>
         <span class="feedback-form__submit-comment">* — обязательные поля</span>
       </div>
     </form>
   </div>
 </main>
-<footer class="page-footer  container">
+<footer class="page-footer">
   <span class="page-footer__hash">#visitSEDONA</span>
   <div class="page-footer__socials">
-    <ul>
-      <li><a href="#" class="social-link  social-link--twitter">twitter</a></li>
-      <li><a href="#" class="social-link  social-link--facebook">facebook</a></li>
-      <li><a href="#" class="social-link  social-link--youtube">youtube</a></li>
-    </ul>
+    <a href="#" class="social-link  social-link--twitter">twitter</a>
+    <a href="#" class="social-link  social-link--facebook">facebook</a>
+    <a href="#" class="social-link  social-link--youtube">youtube</a>
   </div>
   <a href="https://htmlacademy.ru/" class="copyright">
-    <p class="copyright__text">Разработано</p>
-    <img src="#" width="" height="" alt="HTMLACADEMY-logo" class="copyright__logo">
+    <p class="copyright__text">Разработано
+      <a class="copyright__logo" href="#">HTML Academy</a>
+    </p>
   </a>
 </footer>
 </body>
